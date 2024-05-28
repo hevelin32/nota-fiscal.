@@ -1,69 +1,33 @@
-/* Reset CSS */
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font-size: 100%;
-    font: inherit;
-    vertical-align: baseline;
-    box-sizing: border-box;
-}
-
-/* Inclui uma borda extra ao redor dos elementos visíveis */
-* {
-    outline: 1px solid red !important;
-}
-
-/* Estilos para o corpo da página */
 body {
     font-family: Arial, sans-serif;
-    line-height: 1.6;
-    background-color: #f7f7f7;
-    color: #333;
+    margin: 0;
+    padding: 0;
 }
-
-/* Estilos para o cabeçalho */
 header {
     background-color: #333;
     color: #fff;
     padding: 20px;
     text-align: center;
 }
-
-/* Estilos para a barra de navegação */
 nav {
     background-color: #f4f4f4;
     padding: 10px;
     text-align: center;
 }
-
 nav a {
     text-decoration: none;
     color: #333;
     margin: 0 10px;
 }
-
-/* Estilos para as seções */
 section {
     padding: 20px;
 }
-
-/* Estilos para o rodapé */
 footer {
     background-color: #333;
     color: #fff;
     padding: 20px;
     text-align: center;
+}
+.botao{
+    padding: 1em;
 }
