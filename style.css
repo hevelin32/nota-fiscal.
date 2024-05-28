@@ -28,6 +28,12 @@ footer {
     padding: 20px;
     text-align: center;
 }
+.botoes{
+    display: flex;
+    justify-content: center;
+}
 .botao{
-    padding: 1em;
+    width: 16em;
+    height: 16em;
+    margin: 1em;
 }

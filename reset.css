@@ -21,10 +21,6 @@ time, mark, audio, video {
     box-sizing: border-box;
 }
 
-/* Inclui uma borda extra ao redor dos elementos visíveis */
-* {
-    outline: 1px solid red !important;
-}
 
 /* Estilos para o corpo da página */
 body {
