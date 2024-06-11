@@ -2,7 +2,10 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    background-image: url(logofundo.jpg);
+    background-repeat: no-repeat;
 }
+
 header {
     background-color: #333;
     color: #fff;
